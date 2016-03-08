@@ -1,2 +1,2 @@
 gem 'twitter'
-gem 'twitter-oauth'
+gem 'twitter_oauth'
