@@ -15,7 +15,7 @@ def force_unfo(user, reason)
   @force_unfo_list << [user, reason]
 end
 
-KEYWORDS_BLACKLIST = File.read('keywords.txt').try(:split) || []
+KEYWORDS_BLACKLIST = File.read('keywords.txt').split
 
 def match_keywords(attrs)
   kwds = []
